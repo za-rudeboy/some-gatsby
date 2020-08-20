@@ -1,23 +1,23 @@
 import React from "react"
-import { Box, Text, Button } from "@chakra-ui/core"
-import Layout from "../components/layout"
+import { Box, Heading } from "@chakra-ui/core"
 import macImage from "../../assets/front-page-image.jpg"
+import Header from "./header"
+import Layout from "./layout"
 
-console.log(macImage)
 const imageStyle = {
-  imageContainer : {
+  imageContainer: {
     backgroundImage: `url(${macImage})`,
-    backgroundSize: "cover"
-  }
+    backgroundSize: "cover",
+  },
 }
 export default function Home() {
   return (
-    <Box
-      width="100vw"
-      minHeight="100vh"
-      style = {imageStyle.imageContainer}
-    >
-      <Text>Boom</Text>
+    <Box width="100vw" minHeight="100vh" style={imageStyle.imageContainer}>
+      <Layout>
+        <Heading marginLeft="100px" marginTop="30px" color="white" as="h4">
+          Rudy Adams
+        </Heading>
+      </Layout>
     </Box>
   )
 }
