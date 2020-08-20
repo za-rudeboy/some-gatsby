@@ -1,9 +1,15 @@
 import React from "react"
+import Header from "./header"
+import { Box } from "@chakra-ui/core"
+import "./layout.css"
 
-export default function Layout({ children }) {
+function Layout({ children }) {
   return (
-    <div>
-      {children}
-    </div>
+    <Box bg="darkJungleGreen">
+      <Header />
+      <div>{children}</div>
+    </Box>
   )
 }
+
+export default Layout

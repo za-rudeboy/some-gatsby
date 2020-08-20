@@ -1,8 +1,7 @@
 import React from "react"
-import { Box, Heading } from "@chakra-ui/core"
+import { Box, Flex, Heading, Stack, Text } from "@chakra-ui/core"
 import macImage from "../../assets/front-page-image.jpg"
-import Header from "./header"
-import Layout from "./layout"
+import Header from "../components/header"
 
 const imageStyle = {
   imageContainer: {
@@ -13,11 +12,10 @@ const imageStyle = {
 export default function Home() {
   return (
     <Box width="100vw" minHeight="100vh" style={imageStyle.imageContainer}>
-      <Layout>
-        <Heading marginLeft="100px" marginTop="30px" color="white" as="h4">
-          Rudy Adams
-        </Heading>
-      </Layout>
+      <Header></Header>
+      <Heading marginLeft="100px" marginTop="30px" color="white" as="h4">
+        Rudy Adams
+      </Heading>
     </Box>
   )
 }

@@ -1,7 +1,7 @@
 import React from "react"
 import { Text, Box } from "@chakra-ui/core"
-import Header from "./header"
-import Layout from "./layout"
+import Header from "../components/header"
+import Layout from "../components/layout"
 
 export default function About() {
   return (
