@@ -15,5 +15,11 @@ module.exports = {
         isUsingColorMode: false,
       },
     },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      }
+    },
   ],
 };
