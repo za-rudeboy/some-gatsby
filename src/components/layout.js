@@ -5,7 +5,7 @@ import "./layout.css"
 
 function Layout({ children }) {
   return (
-    <Box bg="darkJungleGreen">
+    <Box minHeight="100vh" bg="darkJungleGreen">
       <Header />
       <div>{children}</div>
     </Box>

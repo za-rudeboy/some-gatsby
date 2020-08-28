@@ -1,6 +1,5 @@
 import React from "react"
 import { Text, Box } from "@chakra-ui/core"
-import Header from "../components/header"
 import Layout from "../components/layout"
 
 export default function About() {
