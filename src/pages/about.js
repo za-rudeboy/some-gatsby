@@ -1,11 +1,11 @@
 import React from "react"
 import { Text, Box } from "@chakra-ui/core"
-import Layout from "../components/layout"
+import Layout from "../components/layout" 
 
 export default function About() {
   return (
     <Layout>
-      <Box width="50%" margin="auto">
+      <Box>
         <Text>My name is Rudy Adams and I'm from South Africa.</Text>
         <br />
         <Text>

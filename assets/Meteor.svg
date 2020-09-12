@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:svgjs="http://svgjs.com/svgjs" width="1440" height="560" preserveAspectRatio="none" viewBox="0 0 1440 560">
+    <g mask="url(&quot;#SvgjsMask1096&quot;)" fill="none">
+        <rect width="1440" height="560" x="0" y="0" fill="rgba(3, 31, 39, 1)"></rect>
+        <path d="M336 365L335 688" stroke-width="10" stroke="url(#SvgjsLinearGradient1097)" stroke-linecap="round" class="Up"></path>
+        <path d="M1151 324L1150 635" stroke-width="10" stroke="url(#SvgjsLinearGradient1097)" stroke-linecap="round" class="Up"></path>
+        <path d="M1435 382L1434 25" stroke-width="10" stroke="url(#SvgjsLinearGradient1098)" stroke-linecap="round" class="Down"></path>
+        <path d="M132 515L131 116" stroke-width="6" stroke="url(#SvgjsLinearGradient1098)" stroke-linecap="round" class="Down"></path>
+       
+        <path d="M25 126L24 -59" stroke-width="8" stroke="url(#SvgjsLinearGradient1098)" stroke-linecap="round" class="Down"></path>
+        <path d="M1218 290L1217 -5" stroke-width="8" stroke="url(#SvgjsLinearGradient1098)" stroke-linecap="round" class="Down"></path>
+
+
+
+    </g>
+    <defs>
+        <mask id="SvgjsMask1096">
+            <rect width="1440" height="560" fill="#ffffff"></rect>
+        </mask>
+        <linearGradient x1="0%" y1="100%" x2="0%" y2="0%" id="SvgjsLinearGradient1097">
+            <stop stop-color="rgba(10, 88, 96, 0)" offset="0"></stop>
+            <stop stop-color="rgba(10, 88, 96, 1)" offset="1"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" id="SvgjsLinearGradient1098">
+            <stop stop-color="rgba(10, 88, 96, 0)" offset="0"></stop>
+            <stop stop-color="rgba(10, 88, 96, 1)" offset="1"></stop>
+        </linearGradient>
+    </defs>
+</svg>
