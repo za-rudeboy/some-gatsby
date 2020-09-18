@@ -1,6 +1,6 @@
 import React from "react"
 import { Box, Heading } from "@chakra-ui/core"
-import macImage from "../../assets/front-page-image.webp"
+import macImage from "../../assets/front-page-image.jpg"
 import Header from "../components/header"
 
 const imageStyle = {
